@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	    <meta charset="UTF-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	    <title>Mi portafolio web</title>
+	    <link rel="stylesheet" href="css/style.css">
+	    <link rel="stylesheet" href="css/fontello.css">
+	    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Barrio|Open+Sans|Roboto" >
+	    <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+	</head>
+
+	<body>
+		
+		<header>
+           <div class="contenedor">
+                <h1 class="ion-android-desktop"> Mi portafolio</h1>
+                <input type="checkbox" id="menu-bar">
+                <label for="menu-bar" class="ion-navicon-round"></label>
+                <nav class="nav">
+                    <ul class="ul">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#aboutme">Sobre mi</a></li>
+                        <li><a href="#proyectos">Proyectos</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                    </ul>
+                </nav>
+            </div>
+	    </header>
+		
+		<section id="aboutme" class="aboutme">
+		    <div class="contenedor">
+                <h2>Sobre mi</h2>
+                <div class="aboutme">
+                <img src= "img/yo_.jpg" alt="Esta es una foto mía">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum sapiente quo assumenda, nulla corrupti non eos, pariatur deserunt, maxime laudantium iure quas, eligendi repellendus ad dolore et quisquam placeat commodi, ipsum dolor sit amet, consectetur adipisicing elit. Dolorum sapiente quo assumenda, nulla corrupti non eos, pariatur deserunt, maxime laudantium iure quas, eligendi repellendus ad dolore et quisquam placeat commodi, consectetur adipisicing elit. Dolorum sapiente quo assumenda, nulla corrupti non eos, pariatur deserunt, maxime laudantium iure quas, eligendi repellendus ad dolore et quisquam placeat commodi, consectetur adipisicing elit. Dolorum sapiente quo assumenda, nulla corrupti non eos, pariatur deserunt, maxime laudantium iure quas, eligendi repellendus ad dolore et quisquam placeat commodi, consectetur adipisicing elit. Dolorum sapiente quo assumenda.</p>
+                </div>
+           </div>
+        </section>
+        
+        <section id="proyectos" class="proyectos">
+            <div class="contenedor">
+                <h2>Proyectos</h2>
+                <div class="contenedor2">
+                    <article>
+                        <h3>Proyecto 1</h3>
+                        <img src="img/img1.jpg" alt="Proyecto 1">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque in porta lorem. Morbi condimentum est nibh, et consectetur tortor feugiat at.</p>
+                    </article>
+                    <article>
+                        <h3>Proyecto 2</h3>
+                        <img src="img/img2.jpg" alt="Proyecto 2">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque in porta lorem. Morbi condimentum est nibh, et consectetur tortor feugiat at.</p>
+                    </article>
+                    <article>
+                        <h3>Proyecto 3</h3>
+                        <img src="img/img3.jpg" alt="Proyecto 3">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque in porta lorem. Morbi condimentum est nibh, et consectetur tortor feugiat at.</p>
+                    </article>
+                </div>
+            </div>
+		</section>
+		
+		<section id="contacto" class="contacto">
+           <div class="contenedor">
+                <h2>Contacto</h2>
+                <form action="enviar.php" method="post">
+                    <input type="text" name="nombre" placeholder="Nombre" required>
+                    <input type="email" name="correo" placeholder="Correo" required>
+                    <input type="text" name="telefono" placeholder="Teléfono" required>
+                    <textarea name="mensaje" placeholder="Escriba aquí su mensaje" required></textarea>
+                    <input type="submit" value="Enviar" class="boton">
+                </form>
+		    </div>
+		</section>
+
+		<footer>
+		    <div class="contenedor">
+                <div class="links">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li>&nbsp;| <a href="#aboutme">Sobre mi</a></li>
+                        <li>&nbsp;| <a href="#proyectos">Proyectos</a></li>
+                        <li>&nbsp;| <a href="#contacto">Contacto</a></li>
+                    </ul>
+                </div>
+                 <div class="social">
+                     <a href="#" class="icon-linkedin"></a>
+                     <a href="#" class="icon-github"></a>
+                     <a href="#" class="icon-facebook"></a>
+                     <a href="#" class="icon-twitter"></a>
+                </div>
+            </div>
+		</footer>
+		
+	</body>
+</html>

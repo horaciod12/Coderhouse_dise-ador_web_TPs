@@ -1,0 +1,507 @@
+.contenedor {
+	max-width: 1200px;
+	margin: auto;
+    width: 99%;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3 {
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+section h2 {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 76px;
+    padding-bottom: 5px;
+}
+
+section span {
+    display: block;
+    text-align: center;
+}
+
+.linea1::before {
+	content: "";
+    font-size: 2px;
+    width: 100px;
+    height: 4px;
+    display: inline-block;
+    background: #fff;
+    margin-bottom: 6px;
+}
+
+.linea1::after {
+	content: "";
+    font-size: 2px;
+    width: 100px;
+    height: 4px;
+    display: inline-block;
+    background: #fff;
+    margin-bottom: 6px;
+}
+
+.linea2::before {
+	content: "";
+    font-size: 2px;
+    width: 100px;
+    height: 4px;
+    display: inline-block;
+    background: #000;
+    margin-bottom: 6px;
+}
+
+.linea2::after {
+	content: "";
+    font-size: 2px;
+    width: 100px;
+    height: 4px;
+    display: inline-block;
+    background: #000;
+    margin-bottom: 6px;
+}
+
+.ion-android-star {
+	font-size: 30px;
+	display: inline-block;
+}
+
+/*---------- Estilos del nav ----------*/
+
+nav input {
+   display: none;
+}
+
+nav label {
+    display: none;
+}
+
+nav {
+	width: 100%;
+	background: #2C3E50;
+	color: #fff;
+}
+
+nav h2 {
+    font-size: 30px;
+    padding: 15px;
+}
+
+nav a {
+	text-decoration: none;
+	font-size: 15px;
+	color: #fff;
+	padding: 15px;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+nav .contenedor {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: #fff;
+}
+
+/*--------- Estilos del header ---------*/
+
+header {
+    width: 100%;
+	background: #18BC9C;
+}
+
+header .contenedor{
+	display: flex;
+    flex-direction: column;
+	align-items: center;
+	color: #fff;
+}
+
+header img {
+	padding: 15px;
+    margin-top: 76px;
+}
+
+header h1 {
+ 	font-size: 50px;
+ 	padding: 15px;
+}
+
+header p {
+ 	padding: 15px;
+ 	margin-bottom: 76px;
+}
+
+/*------- Estilos del portfolio -------*/
+
+.contenedor2 {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    padding-top: 15px;
+}
+
+article.imgs {
+    width: 33%;
+    margin-bottom: 35px;
+    text-align: center;
+    display: block;
+}
+
+.imgs img {
+    width: 325px;
+}
+
+.portfolio {
+    margin-bottom: 65px;
+}
+
+/*---------- Estilos de about ----------*/
+
+.about {
+    width: 100%;
+    background: #18BC9C;
+	color: #fff;
+    display: flex;
+}
+
+.about article {
+	display: flex;
+	justify-content: center;
+}
+
+.text1 div {
+	width: 30%;
+	padding: 10px;
+}
+
+.about p {
+	line-height: 22px;
+	text-align: left;
+	margin-bottom: 30px;
+}
+
+.boton {
+	padding: 15px;
+	margin-bottom: 75px;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: #fff;
+    text-decoration: none;
+	font-family: 'Open Sans', sans-serif;
+    display: inline-block;
+}
+
+.contenedor3 {
+    display: flex;
+    justify-content: center;
+}
+
+/*------- Estilos de contact -------*/
+
+form {
+    width: 600px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 76px;
+    border: none;
+}
+
+form input, textarea {
+    display: block; 
+    font-family: 'Open Sans', sans-serif;
+    color: #9E9C9B;
+    font-size: 15px;
+    width: 100%;
+    padding: 20px 10px;
+    border: none;
+}
+
+form input {
+    border-top: solid 0.5px;
+}
+
+form textarea {
+    min-height: 150px;
+    max-height: 200px;
+    max-width: 100%;
+    border-bottom: solid 0.5px;
+    border-top: solid 0.5px;
+    resize: none;
+}
+
+.boton2 {
+    width: auto;
+    background: #18BC9C;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    margin: 10px;
+    padding: 10px 15px;
+    border: none;
+}
+
+/*------- Estilos de footer -------*/
+
+footer {
+    background: #2C3E50;
+    width: 100%;
+    color: #fff;
+}
+
+footer .contenedor {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+div.contenido {
+    width: 30%;
+}
+
+footer h3 {
+    padding: 10px;
+    margin-top: 60px;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+footer p {
+    padding: 10px;
+    margin-bottom: 60px;
+    text-align: center;
+    font-size: 18px
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+}
+
+.social [class^="ion-"] {
+    font-size: 25px;
+    color: #fff;
+    padding: 10px;
+    border-radius: 50%;
+    border: 0.5px solid white;
+    margin: 8px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.link {
+    color: #18BC99;
+    text-decoration: none;
+}
+
+.location2 {
+    line-height: 25px;
+}
+
+/*------- Estilos de after-footer -------*/
+
+.after-footer {
+    background: #233140;
+    width: 100%;
+    color: #fff;
+}
+
+.after-footer p {
+    text-align: center;
+    padding: 20px;
+}
+
+/*--------- Estilos Responsive ---------*/
+
+@media screen and (max-width: 768px) {
+    
+    nav ul {
+        display: flex;
+        position: absolute;
+        top: 60px;
+        width: 100%;
+        background: rgba(44,62,80,0.8);
+        left: -100%;
+        transition: all 0.4s;
+    }
+    
+    .mostrar {
+        left: 0;
+    }
+    
+    nav a {
+        display: block;
+        border-top: 0.5px solid white;
+    }
+    
+    nav a:hover {
+        background: rgba(44,62,80,0.7);
+    }
+    
+    nav li {
+        width: 100%;
+        border-bottom: 0.5px solid white;
+    }
+        
+    nav label {
+        display: block;
+        border: 0.1px solid white;
+        border-radius: 5px;
+        padding: 10px;
+        font-size: 15px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 700;
+        cursor: pointer;
+        margin-right: 10px;
+    }
+    
+    nav span {
+        display: inline-block;	
+        font-size: 18px;
+        width: 18px;
+        height: 18px;
+        text-align: center;
+        vertical-align: text-top;
+        margin-left: 1px;
+        margin-top: 1px;
+    }
+    
+    header p {
+        text-align: center;
+        font-size: 20px;
+        line-height: 27px;
+    }
+    
+    article.imgs {
+        width: auto;
+        margin-bottom: 10px;
+    }
+    
+    .imgs img {
+        width: 85%;
+    }
+    
+    .text1 div {
+        display: block;
+        width: 90%;
+        padding-bottom: 0;
+    }
+    
+    .about article {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .about p {
+        font-size: 18px;
+        margin-bottom: auto;
+    }
+    
+    .boton {
+        margin-top: 30px;
+    }
+    
+    form {
+        width: 400px;
+    }
+    
+    form input {
+        width: 380px;
+    }
+    
+    textarea {
+        width: 380px;
+    }
+    
+    div.contenido {
+        width: 80%;
+    }
+    
+    footer .contenedor {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    footer p {
+        margin-bottom: 50px;
+    }
+    
+    footer h3 {
+        margin-top: 60px;
+        font-size: 20px;
+    }
+    
+    .location {
+        margin-bottom: auto;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    
+   header p {
+        text-align: center;
+        font-size: 22px;
+        line-height: 27px;
+    }
+    
+    article.imgs {
+        width: 45%;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+    .imgs img {
+        width: 100%;
+    }
+    
+    .text1 div {
+        display: block;
+        width: 90%;
+        padding-bottom: 0;
+    }
+    
+    .about article {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .about p {
+        font-size: 18px;
+        margin-bottom: auto;
+    }
+    
+    .boton {
+        margin-top: 30px;
+    }
+    
+    div.contenido {
+        width: 80%;
+    }
+    
+    footer .contenedor {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    footer p {
+        margin-bottom: 50px;
+    }
+    
+    footer h3 {
+        margin-top: 60px;
+        font-size: 25px;
+    }
+    
+    .location {
+        margin-bottom: auto;
+    }
+}

@@ -1,0 +1,224 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.contenedor {
+	width: 98%;
+	margin: auto;
+    max-width: 1200px;
+}
+
+section {
+    margin-bottom: 25px;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: underline;
+    padding: 10px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*----------- HEADER -----------*/
+
+header {
+    background-color: #000;
+    margin-bottom: 25px;
+}
+
+header .contenedor {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+}
+
+header h1 {
+    font-family: 'Barrio', cursive;
+    font-size: 40px;
+    color: #fff;
+    text-transform: uppercase;
+    padding-left: 10px;
+}
+
+nav {
+    text-transform: uppercase;
+}
+
+header ul {
+    display: flex;
+}
+
+header a {
+    color: #fff;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    height: 60px;
+    padding: 0 15px;
+}
+
+header a:hover {
+    background: rgba(255,255,255,0.3);
+}
+
+/*----------- SOBRE MI -----------*/
+
+div.aboutme {
+    padding: 10px;
+    display: flex;
+}
+
+div.aboutme img {
+    width: 300px;
+    height: 350px;
+}
+
+div.aboutme p {
+    margin-left: 15px;
+    height: 350px;
+}
+
+/*----------- PROYECTOS -----------*/
+
+.proyectos {
+    background: #000;
+    color: #fff;
+}
+
+.proyectos .contenedor {
+    padding-top: 10px;
+}
+
+.proyectos h2 {
+    padding-top: 10px;
+}
+
+.contenedor2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contenedor2 article {
+    width: 30%;
+    padding: 10px;
+}
+
+.contenedor2 h3 {
+    padding: 5px;
+    text-align: center;
+}
+
+.contenedor2 p {
+    padding: 5px;
+    text-align: center;
+}
+
+.contenedor2 img {
+    width: 100%;
+    height: 200px;
+}
+
+/*----------- CONTACTO -----------*/
+
+form {
+    width: 500px;
+    margin: auto;
+    margin-top: 5px;
+    background: #000;
+    border: 4px solid black;
+}
+
+input, textarea {
+    display: block;
+    width: 100%;
+    background: #000;
+    color: #fff;
+    font-weight: bold;
+    padding: 15px;
+    border: 2px solid white;
+}
+
+textarea {
+    min-height: 150px;
+    max-height: 200px;
+    max-width: 100%;
+}
+
+.boton {
+    width: 300px;
+    height: 45px;
+    text-transform: uppercase;
+    margin: auto;
+    background: #fff;
+    color: #000;
+    font-size: 16px;
+    margin-top: 5px;
+    border: 2px solid white;
+}
+
+.boton:hover {
+    cursor: pointer;
+}
+
+/*----------- FOOTER -----------*/
+
+footer {
+    text-transform: uppercase;
+    background-color: #000;
+    color: #fff;
+    margin-top: 70px;
+    border-bottom: solid white;
+}
+
+.links ul {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    padding-bottom: 10px;
+}
+
+.links li {
+    font-size: 25px;
+}
+
+.links a {
+    color: #fff;
+    font-size: 25px;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.social a {
+    color: #000;
+    font-size: 30px;
+    padding: 3px;
+    background-color: #fff;
+    border-radius: 50%;
+    margin-left: 15px;
+    margin-bottom: 25px;
+}

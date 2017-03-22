@@ -1,0 +1,26 @@
+h1 {
+    font-family: 'Barrio', cursive;
+    font-size: 50px;
+}
+
+h2 {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav, footer {
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: none;
+}

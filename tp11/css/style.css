@@ -1,0 +1,67 @@
+@import url(carousel.css);
+
+h1, h2, h3, h4, h5, h6, div.navbar-header a {
+    font-family: 'Roboto Slab', serif;
+}
+
+p, ul.navbar-right a {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbar {
+    border-radius: 0px;
+    margin-bottom: 0px;
+}
+
+.navbar-inverse .navbar-brand {
+    color: white;
+}
+
+.carousel {
+    margin-bottom: 40px;
+}
+
+.formulario h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+form {
+    max-width: 500px;
+    padding: 25px;
+    margin: auto;
+    border: solid #dddddd;
+    border-radius: 7px;
+}
+
+textarea {
+    resize: none;
+}
+
+.footer {
+    background: #000;
+    padding: 10px 0px;
+    margin-top: 40px;
+}
+
+.footer a {
+    color: #9d9d9d;
+    font-size: 25px;
+    padding: 10px;
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+    display: inline-block;
+}
+
+.footer a:hover {
+    color: white;
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
+@media (min-width: 993px) {
+    div.navbar-header a {
+    font-size: 30px;
+    }
+}
